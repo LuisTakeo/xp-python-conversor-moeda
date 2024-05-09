@@ -45,7 +45,7 @@ class TestesDaCalculadoraDeCambio(TestCase):
         valor = 1000
         taxa = 5.56
         iof = (100 - 1.1) / 100
-        resultado_esperado = round(valor / taxa * iof, 2) - 1
+        resultado_esperado = round(valor / taxa * iof, 2)
 
         # Act
         resultado_obtido = calc.converter(valor, taxa)
