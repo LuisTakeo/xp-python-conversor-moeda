@@ -1,5 +1,6 @@
 name: Calculadora tests
 
+on: [push]
 
 jobs:
   linter:
